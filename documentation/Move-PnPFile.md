@@ -19,7 +19,7 @@ Move-PnPFile [-SourceUrl] <String> [-TargetUrl] <String> [-Overwrite] [-NoWait] 
 ```
 
 ## DESCRIPTION
-Allows moving a file or folder to a different location inside the same document library, such as in a subfolder, to a different document library on the same site collection or to a document library on another site collection. If you move a file to a different site or subweb you cannot specify a target filename.
+Allows moving a file or folder to a different location inside the same document library, such as in a subfolder, to a different document library on the same site collection or to a document library on another site collection. If you move a file to a different site or subweb you cannot specify a target filename. Any sharing information will be lost in the process.
 
 ## EXAMPLES
 
